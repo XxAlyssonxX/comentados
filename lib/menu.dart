@@ -19,7 +19,7 @@ class _HomePageState extends State<menu> { // Define uma classe privada chamada 
       appBar: AppBar( // Define a barra de aplicativos.
         title: Text("MENU"), // Define o título da barra de aplicativos.
         centerTitle: true, // Centraliza o título na barra de aplicativos.
-        backgroundColor: Colors.deepOrange, // Define a cor de fundo da barra de aplicativos.
+        backgroundColor: Colors.deepPurple, // Define a cor de fundo da barra de aplicativos.
       ),
 
       body: SingleChildScrollView( // Permite a rolagem da interface para cima e para baixo.
@@ -30,7 +30,7 @@ class _HomePageState extends State<menu> { // Define uma classe privada chamada 
             const Icon( // Cria um ícone.
               Icons.add_business_sharp, // Ícone a ser exibido.
               size: 140.0, // Tamanho do ícone.
-              color: Colors.deepOrange, // Cor do ícone.
+              color: Colors.deepPurple, // Cor do ícone.
             ),
             Text( // Widget de texto.
               "Aplicação Principal", // Texto a ser exibido.
